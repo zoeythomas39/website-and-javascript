@@ -1,0 +1,43 @@
+body {
+    background-color: #000;
+    color: #FFA200;
+    text-align: center;
+    font-family: "Grenze Gotisch","Verdana","sans-serif"
+}
+
+h1 {
+    font-family: "Henny Penny", "Impact","fantasy";
+}
+
+img {
+    max-width: 100%;
+}
+
+#halloween {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+}
+
+#costumechanger {
+    background-color: #aa8039;
+}
+
+#pumpkinhover {
+    background-color: #ffa200;
+}
+
+.credit {
+    font-family: 'Times New Roman', Times, serif;
+    
