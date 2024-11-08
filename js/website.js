@@ -24,7 +24,7 @@ catImage.onclick = () => {
 };
 
 pumpkinImage.onmouseover = () => {
-pumpkinImage.setAttribute('src', 'images/marie_kitty_resized.jpg')
+pumpkinImage.setAttribute('src', 'images/marie_kitty_resized2.jpg')
 };
 
 pumpkinImage.onmouseout = () => {

@@ -1,17 +1,40 @@
+/*normal stuff*/
+
 body {
     background-color: #000;
-    color: #FFA200;
+    color: #FFB029;
     text-align: center;
-    font-family: "Grenze Gotisch","Verdana","sans-serif"
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h1 {
     font-family: "Henny Penny", "Impact","fantasy";
+    font-size: 3rem; 
+    margin-bottom: 0;
+}
+
+#byline {
+    margin-top: 0rem;
+    color: white;
 }
 
 img {
     max-width: 100%;
 }
+
+#explanation {
+    font-size: 0.75rem;
+}
+
+#costumechanger {
+    background-color: #aa8039;
+}
+
+#pumpkinhover {
+    background-color: #FFB029;
+}
+
+/* flex stuff */
 
 #halloween {
     display: flex;
@@ -30,14 +53,44 @@ img {
     color: #000;
 }
 
-#costumechanger {
-    background-color: #aa8039;
-}
+/* pseudo link classes */
 
-#pumpkinhover {
-    background-color: #ffa200;
-}
+a:link {
+    color: #fff;
+    }
 
-.credit {
-    font-family: 'Times New Roman', Times, serif;
+a:visited {
+        color: #A6A6A6;
+    }
+
+a:hover {
+        background-color: #fff;
+        color: #000;
+    }
+
+a:focus {
+        background-color: #FFB029;
+        color: #000;
+    }
+
+
+#credit a:visited {
+        color: #595248;
+    }
     
+#credit a:hover {
+        color: #FFB029;
+        background: #000; 
+    }
+
+ #credit a:focus {
+        color: #fff;
+        background: #000; 
+    }
+
+/* media query */
+
+@media (min-width: 768px) {
+    #halloween {
+        flex-direction: row;
+    }}
